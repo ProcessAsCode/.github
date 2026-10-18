@@ -34,16 +34,19 @@ processes, data and audit trail.
 |---|---|---|
 | Standard | [UAPF](https://github.com/UAPFormat) | Package format for processes, decisions and resources |
 | Standard | [UAS](https://github.com/UAPFormat/UAS-specification) | Structured schema for agreements and obligations |
-| Repository | ProcessGit | Versioned storage and replication of UAPF packages |
-| Design | Studio | Authoring and validation of process packages |
+| Repository | [ProcessGit](https://github.com/ProcessAsCode/processgit) | Versioned storage and replication of UAPF packages, with an MCP endpoint for AI agents |
+| Design | [Studio](https://github.com/ProcessAsCode/studio) | Visual BPMN, DMN and CMMN modelling with UAPF package import/export |
 | Execution | Agent runtime / SDK | Runs UAPF packages, connects AI agents through the UAPF interaction protocol |
-| Domain platforms | [OpenLegal](https://github.com/ProcessAsCode/openlegal) | Contract and corporate-governance compliance monitoring |
+| Domain platforms | [OpenDMS](https://github.com/ProcessAsCode/opendms), [OpenLegal](https://github.com/ProcessAsCode/openlegal) | Document management and legal compliance, with business rules delegated to UAPF processes |
 
 ## Repositories
 
-| Repository | Description | Licence |
-|---|---|---|
-| [openlegal](https://github.com/ProcessAsCode/openlegal) | Agreements and governance obligations as code, run by UAPF processes and AI agents | AGPL-3.0-only |
+| Repository | Description | Language | Licence |
+|---|---|---|---|
+| [processgit](https://github.com/ProcessAsCode/processgit) | Git-based repository for executable processes (UAPF packages), with an MCP endpoint for AI agents | Go | AGPL-3.0-only |
+| [studio](https://github.com/ProcessAsCode/studio) | Visual BPMN, DMN and CMMN modelling with UAPF package import/export | JavaScript | AGPL-3.0-only |
+| [opendms](https://github.com/ProcessAsCode/opendms) | AI-native document management system whose business rules are delegated to UAPF processes | Python | AGPL-3.0-only |
+| [openlegal](https://github.com/ProcessAsCode/openlegal) | Agreements and governance obligations as code, run by UAPF processes and AI agents | Python | AGPL-3.0-only |
 
 The UAPF specification and schemas are maintained separately in the
 [UAPFormat](https://github.com/UAPFormat) organisation.
