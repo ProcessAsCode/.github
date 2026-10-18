@@ -34,9 +34,9 @@ This organisation holds the open-source community edition of the stack: an open 
 | [studio](https://github.com/ProcessAsCode/studio) | Visual BPMN, DMN and CMMN modelling with UAPF package import/export | AGPL-3.0-only | public |
 | [opendms](https://github.com/ProcessAsCode/opendms) | Document management system whose business rules are delegated to UAPF processes | AGPL-3.0-only | public |
 | [openlegal](https://github.com/ProcessAsCode/openlegal) | Agreements and governance obligations as code (UAS), run by UAPF processes and AI agents | AGPL-3.0-only | public |
-| process-agent | Governed AI agent runtime with process, systems and trust connectors | Apache-2.0 | in preparation |
+| [process-agent](https://github.com/ProcessAsCode/process-agent) | Governed AI agent runtime with process, systems and trust connectors | Apache-2.0 | public |
 | [event-signer](https://github.com/ProcessAsCode/event-signer) | DID/VC signing of every transaction for the audit trail | Apache-2.0 | public |
-| reference-lab | The whole stack as one deployable system: Docker Compose, gateway, single sign-on, example data, documentation | Apache-2.0 | in preparation |
+| [reference-lab](https://github.com/ProcessAsCode/reference-lab) | The whole stack as one deployable system: Docker Compose, gateway, single sign-on, example data, documentation | Apache-2.0 | public |
 
 ## Related standards and components
 
