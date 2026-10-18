@@ -69,4 +69,4 @@ The UAPF standard is maintained as a neutral specification in its own organisati
 
 - Specification site: https://uapf.dev
 - Public ProcessGit instance (test and demonstration): https://processgit.org
-- Contact: hello@algomation.io
+
