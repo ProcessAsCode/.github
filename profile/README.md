@@ -35,7 +35,7 @@ This organisation holds the open-source community edition of the stack: an open 
 | [opendms](https://github.com/ProcessAsCode/opendms) | Document management system whose business rules are delegated to UAPF processes | AGPL-3.0-only | public |
 | [openlegal](https://github.com/ProcessAsCode/openlegal) | Agreements and governance obligations as code (UAS), run by UAPF processes and AI agents | AGPL-3.0-only | public |
 | process-agent | Governed AI agent runtime with process, systems and trust connectors | Apache-2.0 | in preparation |
-| event-signer | DID/VC signing of every transaction for the audit trail | Apache-2.0 | in preparation |
+| [event-signer](https://github.com/ProcessAsCode/event-signer) | DID/VC signing of every transaction for the audit trail | Apache-2.0 | public |
 | reference-lab | The whole stack as one deployable system: Docker Compose, gateway, single sign-on, example data, documentation | Apache-2.0 | in preparation |
 
 ## Related standards and components
